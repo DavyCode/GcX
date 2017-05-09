@@ -1,15 +1,15 @@
 // Initiate Environment Variables with dotenv: https://www.npmjs.com/package/dotenv
 require("dotenv").config();
 
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var helmet = require('helmet');
-var compression = require('compression');
-var mongoose = require('mongoose');
+var  express       = require('express'),
+     path          = require('path'),
+     favicon       = require('serve-favicon'),
+     logger        = require('morgan'),
+     cookieParser  = require('cookie-parser'),
+     bodyParser    = require('body-parser'),
+     helmet        = require('helmet'),
+     compression   = require('compression'),
+     mongoose      = require('mongoose');
 
 var index = require('./routes/index');
 var api = require('./routes/api');
